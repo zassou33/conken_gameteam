@@ -461,7 +461,7 @@ MonoBehaviour:
   m_LineType: 2
   m_HideMobileInput: 0
   m_CharacterValidation: 0
-  m_CharacterLimit: 15
+  m_CharacterLimit: 10
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
@@ -1051,6 +1051,7 @@ GameObject:
   - component: {fileID: 1283695675}
   - component: {fileID: 1283695674}
   - component: {fileID: 1283695673}
+  - component: {fileID: 1283695676}
   m_Layer: 5
   m_Name: Runking
   m_TagString: Untagged
@@ -1121,7 +1122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1283695674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1283695676}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1283695674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,6 +1173,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283695671}
   m_CullTransparentMesh: 1
+--- !u!114 &1283695676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283695671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0a2c440e635de46943e51b9974bf83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 5
 --- !u!1 &1284581397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,8 +1652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433304c61bbdf254a9f352067f17bbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomNames: "\u30DC\u30ED\u30F3\u30B4,\u30B2\u30EC\u30B2\u30EC,\u30C1\u30ED\u30EB,\u30D7\u30C3\u30AF\u30EB"
   inputField: {fileID: 511996237}
+  randomNames: "\u30DC\u30ED\u30F3\u30B4,\u30B2\u30EC\u30B2\u30EC,\u30C1\u30ED\u30EB,\u30D7\u30C3\u30AF\u30EB"
 --- !u!1 &1924027136
 GameObject:
   m_ObjectHideFlags: 0

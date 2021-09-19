@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class RandomPush : MonoBehaviour
 {
-    [SerializeField] string randomNames;
     [SerializeField] InputField inputField;
+    [SerializeField,HeaderAttribute("ランダムで出る名前(半角カンマ分け)")] string randomNames;
     private void Start()
     {
         inputField = inputField.GetComponent<InputField>();

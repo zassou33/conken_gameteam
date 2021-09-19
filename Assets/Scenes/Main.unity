@@ -370,8 +370,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1173760162}
-        m_TargetAssemblyTypeName: OutingButtonPush, Assembly-CSharp
-        m_MethodName: OnClick
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -428,9 +428,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1173760157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c92949731916df34f9c0d26ff967d073, type: 3}
+  m_Script: {fileID: 11500000, guid: aa0a2c440e635de46943e51b9974bf83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 4
 --- !u!1 &1194500827
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,8 +675,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1603785135}
-        m_TargetAssemblyTypeName: EatingButtonPush, Assembly-CSharp
-        m_MethodName: OnClick
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -732,9 +733,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1603785130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bf4682c58463a74cab64d0904f3f50e, type: 3}
+  m_Script: {fileID: 11500000, guid: aa0a2c440e635de46943e51b9974bf83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 2
 --- !u!1 &1606110389
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,8 +822,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1606110394}
-        m_TargetAssemblyTypeName: StudyButtonPush, Assembly-CSharp
-        m_MethodName: OnClick
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -878,9 +880,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606110389}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86469851870c09644af5fe9cf83f27b8, type: 3}
+  m_Script: {fileID: 11500000, guid: aa0a2c440e635de46943e51b9974bf83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 6
 --- !u!1 &1852784470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,8 +1114,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2019429973}
-        m_TargetAssemblyTypeName: BedTimeButtonPush, Assembly-CSharp
-        m_MethodName: OnClick
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1169,9 +1172,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2019429968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b935e1a0b78afb64aa9eabf59c10ac8e, type: 3}
+  m_Script: {fileID: 11500000, guid: aa0a2c440e635de46943e51b9974bf83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 1
 --- !u!1 &2031034621
 GameObject:
   m_ObjectHideFlags: 0
