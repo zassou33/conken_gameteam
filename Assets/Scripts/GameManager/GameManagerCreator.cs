@@ -7,7 +7,7 @@ public class GameManagerCreator : MonoBehaviour
     private static bool Loaded { get; set; }
 
     [SerializeField]
-    GameObject[] gameManagerPrefabs = null;
+    GameObject gameManagerPrefab = null;
 
     void Awake()
     {
@@ -17,11 +17,8 @@ public class GameManagerCreator : MonoBehaviour
         Loaded = true;
 
         //プレハブをインスタンス化して、DontDestroyOnLoad
-        foreach (var prefab in gameManagerPrefabs)
-        {
-            GameObject go = Instantiate(prefab);
+            GameObject go = Instantiate(gameManagerPrefab);
             DontDestroyOnLoad(go);
-        }
     }
 }
 

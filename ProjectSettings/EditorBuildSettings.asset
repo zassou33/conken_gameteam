@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 248eab8bdde8c72469a137901339bea5
+  - enabled: 1
+    path: Assets/Scenes/Runking.unity
+    guid: ca8550f542df0504cbaeda66c0851f3f
   m_configObjects: {}
