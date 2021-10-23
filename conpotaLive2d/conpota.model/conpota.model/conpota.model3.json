@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "conpota.moc3",
+		"Textures": [
+			"conpota.2048/texture_00.png"
+		],
+		"Physics": "conpota.physics3.json",
+		"DisplayInfo": "conpota.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

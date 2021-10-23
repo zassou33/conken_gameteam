@@ -1,0 +1,245 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "Param_jump",
+			"GroupId": "",
+			"Name": "ジャンプ"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param_tail",
+			"GroupId": "",
+			"Name": "しっぽ"
+		},
+		{
+			"Id": "Param_tail_",
+			"GroupId": "",
+			"Name": "しっぽ揺れ１"
+		},
+		{
+			"Id": "Param_tail_2",
+			"GroupId": "",
+			"Name": "しっぽ揺れ2"
+		},
+		{
+			"Id": "Param_arm_X_1",
+			"GroupId": "",
+			"Name": "腕X＞"
+		},
+		{
+			"Id": "Param_arm_Y_1",
+			"GroupId": "",
+			"Name": "腕Y＞"
+		},
+		{
+			"Id": "Param_arm_open",
+			"GroupId": "",
+			"Name": "腕開き＞"
+		},
+		{
+			"Id": "Param_arm_X_2",
+			"GroupId": "",
+			"Name": "腕X<"
+		},
+		{
+			"Id": "Param_arm_Y_2",
+			"GroupId": "",
+			"Name": "腕Y<"
+		},
+		{
+			"Id": "Param_arm_open2",
+			"GroupId": "",
+			"Name": "腕開き<"
+		},
+		{
+			"Id": "Param_ear",
+			"GroupId": "",
+			"Name": "耳＞"
+		},
+		{
+			"Id": "Param_ear2",
+			"GroupId": "",
+			"Name": "耳<"
+		},
+		{
+			"Id": "Param_eye",
+			"GroupId": "",
+			"Name": "目の角度"
+		},
+		{
+			"Id": "Param_onoff",
+			"GroupId": "",
+			"Name": "衣装着脱"
+		},
+		{
+			"Id": "Param_change",
+			"GroupId": "",
+			"Name": "衣装選択"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part11",
+			"Name": "conpota.psd（対応無し）"
+		},
+		{
+			"Id": "Part9",
+			"Name": "conpota.psd（対応無し）"
+		},
+		{
+			"Id": "Part7",
+			"Name": "conpota.psd（対応無し）"
+		},
+		{
+			"Id": "Part01Core",
+			"Name": "コア"
+		},
+		{
+			"Id": "Part01Face001",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part01EyeBall001",
+			"Name": "目玉"
+		},
+		{
+			"Id": "Part01Eye001",
+			"Name": "目"
+		},
+		{
+			"Id": "Part01Brow001",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part01Mouth001",
+			"Name": "口"
+		},
+		{
+			"Id": "Part01Nose001",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part01Ear001",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part01HairFront001",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part01HairSide001",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part01HairBack001",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part01Neck",
+			"Name": "首"
+		},
+		{
+			"Id": "Part01Arm",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part01Body",
+			"Name": "体"
+		},
+		{
+			"Id": "Part01Item",
+			"Name": "アイテム"
+		},
+		{
+			"Id": "Part3",
+			"Name": "アクセ"
+		},
+		{
+			"Id": "Part2",
+			"Name": "アクセ"
+		},
+		{
+			"Id": "Part",
+			"Name": "アクセ"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"Param_arm_X_1",
+			"Param_arm_Y_1"
+		],
+		[
+			"Param_arm_X_2",
+			"Param_arm_Y_2"
+		]
+	]
+}
